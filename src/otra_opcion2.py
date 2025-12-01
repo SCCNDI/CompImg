@@ -1,3 +1,7 @@
+"""
+Compara dos imágenes siendo insensible a escala y rotación utilizando análisis estructural y espectral.
+Utiliza SSIM para evaluar la similitud estructural y análisis de histogramas para la similitud espectral.
+"""
 import sys
 import numpy as np
 from skimage import io, color, transform, metrics, img_as_float
