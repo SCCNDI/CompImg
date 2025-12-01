@@ -1,3 +1,4 @@
+import sys
 import numpy as np
 from skimage import io, color, transform, metrics, img_as_float
 
@@ -76,5 +77,10 @@ def comparar_similitud_total(ruta_img1, ruta_img2, tamaño_norm=(300, 300)):
     except Exception as e:
         return f"Error: {str(e)}"
 
-# Ejemplo ficticio:
+# uso:
 # print(comparar_similitud_total("original.jpg", "copia_rotada_90.jpg"))
+imagen1 = sys.argv[1]
+imagen2 = sys.argv[2]
+
+resultado = comparar_similitud_total(imagen1,imagen2)
+print(resultado)
