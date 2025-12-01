@@ -1,0 +1,4 @@
+imagehash==4.3.2
+numpy==2.3.5
+iPillow==12.0.0
+opencv-python==4.12.0
