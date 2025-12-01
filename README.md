@@ -1,2 +1,3 @@
-### CompImg
-Algorimos básicos para comparación de imagenes 
+## CompImg
+Algoritmos básicos para comparación de imagenes basados en análisis espectral, 
+análisis de histogramas. Código en python, véase los requerimientos.

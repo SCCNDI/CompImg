@@ -1,3 +1,17 @@
+"""
+Ejemplo básico para comparar 2 imágenes
+
+AAFR <aalfonso@cultura.gob.mx>
+2025-11-30
+
+véase
+https://en.wikipedia.org/wiki/Discrete_cosine_transform
+
+https://pypi.org/project/ImageHash/
+https://pypi.org/project/opencv-python/
+"""
+
+
 import cv2
 import imagehash
 from PIL import Image
