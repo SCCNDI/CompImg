@@ -1,3 +1,7 @@
+"""
+python3 ./otra_opcion.py ../demo/49199_original.jpeg ../demo/49199_rotada90.png
+"""
+
 import sys
 import numpy as np
 from skimage import io, color, transform, metrics, img_as_float

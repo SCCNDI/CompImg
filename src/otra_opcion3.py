@@ -3,6 +3,9 @@ Compara dos imágenes utilizando detección y descripción de características c
 Este método es robusto a cambios de escala, rotación y ciertas variaciones de iluminación.
 Usa el algoritmo SIFT para detectar puntos clave y describirlos, seguido de un emparejamiento
 de características para evaluar la similitud.
+
+python3 ./otra_opcion3.py ../demo/49199_original.jpeg ../demo/49199_recortada90.pn
+
 """
 import sys
 import cv2
